@@ -1,0 +1,17 @@
+#generacion de matriz identidad
+fila_y_columna = int(input("digite numero de filas y columnas de matriz "))
+#se crea la matriz
+m=[]
+#la llenamos de ceros
+for i in range(fila_y_columna):
+    m.append([0]*fila_y_columna)
+    print(m[i])
+n=0
+print("matriz llena de ceros\n")
+for j in m:
+    m[n][n]=1
+    print(m[n])
+    n+=1
+print("matriz identidad")
+
+    
